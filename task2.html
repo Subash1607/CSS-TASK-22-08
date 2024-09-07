@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        img{
+            width: 40px;
+            height: 40px;
+            border: 2px solid black;
+        }
+        #content>p {
+            background-color: lightgray;
+            font-size: 1rem;
+            font-family: Verdana;
+            width: 300px;
+            padding: 10px;
+        }
+        #content{
+                display: none;
+        }
+        input:checked ~ #content{
+            display: block;
+
+        }
+       
+
+    </style>
+</head>
+<body>
+    <input hidden type="checkbox" name="checkbox" id="checkbox">
+    <label for="checkbox">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1200px-Hamburger_icon.svg.png" alt="">
+
+    </label>
+  
+
+    <div id="content">
+        <p><a href="https://www.icicibank.com/personal-banking/accounts/savings-account?ITM=nli_cms_accounts_savings_account_header_nav.html">Accounts</a></p>
+        <p><a href="https://www.icicibank.com/personal-banking/deposits?ITM=nli_cms_deposits_header_nav">Deposits</a></p>
+        <p><a href="https://www.icicibank.com/personal-banking/online-services/funds-transfer?ITM=nli_cms_payments_money_transfer_header_nav">Payments</a></p>
+        <p><a href="https://www.icicibank.com/personal-banking/cards/credit-card?ITM=nli_cms_cards_credit_cards_header_nav">Cards</a></p>
+        <p><a href="https://www.icicibank.com/personal-banking/loans/personal-loan?ITM=nli_cms_loans_personal_loan_header_nav">Loans</a></p>
+        <p><a href="https://www.icicibank.com/personal-banking/investments?ITM=nli_cms_investment_header_nav">Investment</a></p>
+        <p><a href="https://www.icicibank.com/personal-banking/insurance?ITM=nli_cms_insurance_header_nav">Insurance</a></p>
+    </div>
+
+
+</body>
+</html>
